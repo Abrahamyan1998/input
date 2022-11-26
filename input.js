@@ -10,6 +10,9 @@ let p = document.querySelector("p");
 let form = document.querySelector(".form__body")
 let input = document.querySelectorAll("input")
 
+for (let i = 0; i < user.length; i++) {
+    console.log(user[i]);
+}
 
 names.addEventListener("input", () => {
     console.log();
