@@ -9,11 +9,7 @@ let user = document.querySelectorAll(".user");
 let p = document.querySelector("p");
 let form = document.querySelector(".form__body")
 let input = document.querySelectorAll("input")
-p.style.background = "green";
-p.style.color = "white";
-p.style.borderRadius = "20px";
-p.style.border = "none";
-p.style.padding = "20px";
+
 
 
 
@@ -101,8 +97,11 @@ form.addEventListener('submit', (e) => {
 for (let index = 0; index < input.length; index++) {
     p.innerHTML = `<p> ${input[0].value} , ${input[1].value} , ${input[2].value} , ${input[3].value} , ${input[4].value} , ${input[5].value} </p>`
 }
-    
-    // return false
+    p.style.background = "green";
+    p.style.color = "white";
+    p.style.borderRadius = "20px";
+    p.style.border = "none";
+    p.style.padding = "20px";
     e.preventDefault()
 
 })
