@@ -9,6 +9,16 @@ let user = document.querySelectorAll(".user");
 let p = document.querySelector("p");
 let form = document.querySelector(".form__body")
 let input = document.querySelectorAll("input")
+p.style.background = "green";
+p.style.color = "white";
+p.style.borderRadius = "20px";
+p.style.border = "none";
+p.style.padding = "20px";
+
+
+
+
+
 
 for (let i = 0; i < user.length; i++) {
     console.log(user[i]);
